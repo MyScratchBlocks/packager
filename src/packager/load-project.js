@@ -37,7 +37,7 @@ const fromURL = async (url, progressCallback) => {
 
 const fromID = (id, token, progressCallback) => {
   const tokenPart = token ? `?token=${token}` : '';
-  const url = `https://editor-compiler.onrender.com/${id}${tokenPart}`;
+  const url = `https://editor-compiler.onrender.com/json/${id}${tokenPart}`;
   return fromURL(url, progressCallback);
 };
 
