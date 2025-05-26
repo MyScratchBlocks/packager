@@ -1,4 +1,4 @@
-# TurboWarp Packager
+# MyScratchBlocks Packager
 
 https://packager.turbowarp.org/
 
