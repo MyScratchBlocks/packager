@@ -6,8 +6,8 @@ const getProjectMetadata = async (id) => {
     const meta = await request({
       url: [
         // Hopefully one of these URLs won't be blocked.
-        `https://trampoline.turbowarp.org/api/projects/${id}`,
-        `https://trampoline.turbowarp.xyz/api/projects/${id}`
+        `https://editor-compiler.onrender.com/api/projects/${id}/meta`,
+        `https://editor-compiler.onrender.com/api/projects/${id}/meta`
       ],
       type: 'json'
     });
