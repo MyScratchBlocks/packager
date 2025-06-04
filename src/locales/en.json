@@ -10,14 +10,14 @@
       "string": "Embedding"
     },
     "description3": {
-      "string": "Report bugs, give feedback, and suggest ideas {onScratch} or {onGitHub}."
+      "string": "Report bugs, give feedback, and suggest ideas {onMyScratchBlocks} or {onGitHub}."
     },
     "disclaimer": {
-      "string": "This site is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
+      "string": "This site is not affiliated with MyScratchBlocks, the MyScratchBlocks Team, or the MyScratchBlocks Foundation."
     },
     "description3-on": {
       "string": "on {brand}",
-      "developer_comment": "Used in the context 'Report bugs on Scratch'."
+      "developer_comment": "Used in the context 'Report bugs on MyScratchBlocks'."
     },
     "error": {
       "string": "Error"
@@ -107,7 +107,7 @@
     },
     "loadingScripts": {
       "string": "Downloading scripts",
-      "developer_comment": "Loading message used when loading the Scratch runtime"
+      "developer_comment": "Loading message used when loading the MyScratchBlocks runtime"
     },
     "downloadingExtensions": {
       "string": "Downloading custom extensions",
@@ -119,11 +119,11 @@
       "string": "Select Project"
     },
     "selectHelp": {
-      "string": "Select the project you want to package by copying and pasting the Scratch project link or using one of the other modes. If you use a project you didn't make, make sure to credit the creator."
+      "string": "Select the project you want to package by copying and pasting the MyScratchBlocks project link or using one of the other modes. If you use a project you didn't make, make sure to credit the creator."
     },
     "id": {
       "string": "MyScratchBlockx Project ID or URL",
-      "developer_comment": "Radio option to select a project from the Scratch website"
+      "developer_comment": "Radio option to select a project from the MyScratchBlocks website"
     },
     "file": {
       "string": "File",
@@ -131,7 +131,7 @@
     },
     "url": {
       "string": "Other URL",
-      "developer_comment": "Radio option to choose a project from a non-Scratch URL"
+      "developer_comment": "Radio option to choose a project from a non-MyScratchBlocks URL"
     },
     "loadProject": {
       "string": "Load Project",
@@ -153,7 +153,7 @@
       "developer_comment": "Error message"
     },
     "unsharedProjects": {
-      "string": "Unshared projects are no longer accessible using their project ID due to Scratch API changes.",
+      "string": "Unshared projects are no longer accessible using their project ID due to MyScratchBlocks API changes.",
       "developer_comment": "Warning message about unshared projects no longer being accessible."
     },
     "unsharedProjectsWorkaround": {
@@ -359,10 +359,6 @@
     "mode": {
       "string": "Mode",
       "developer_comment": "Label to choose how to handle cloud variables"
-    },
-    "cloudVariablesHost": {
-      "string": "Cloud host",
-      "developer_comment": "Option to use configure which cloud variable server to connect to"
     },
     "cloudVariables-ws": {
       "string": "Connect to cloud variable server"
@@ -618,7 +614,7 @@
       "developer_comment": "Button to import packager settings"
     },
     "confirmImportUnsafe": {
-      "string": "These settings use advanced features such as custom JS that run unknown and possibly malicious code on your computer. Only import this file if you trust the person who created it. If you're not sure what this means, you probably shouldn't import these settings.",
+      "string": "These settings use advanced features suchs as custom JS that run unknown and possibly malicious code on your computer. Only import this file if you trust the person who created it. If you're not sure what this means, you probably shouldn't import these settings.",
       "developer_comment": "Confirmation prompt that appears when importing packager settings that use 'unsafe' features."
     },
     "downloadsWillAppearHere": {
@@ -696,4 +692,4 @@
       "description": "Button to cancel import"
     }
   }
-}
+  }
